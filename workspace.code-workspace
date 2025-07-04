@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"phpSniffer.executablesFolder": "./vendor/bin/",
+		"phpSniffer.standard": "./phpcs.xml",
+		"phpSniffer.autoDetect": true,
+		"phpSniffer.snippetExcludeSniffs": ["*.js",
+			"*.css",
+			"*.scss"],
+		"editor.rulers": [80,120],
+		"editor.minimap.enabled": false,
+		"phpmd.enabled": false,
+	},
+	"extensions": {
+		"recommendations": [
+			"wongjn.php-sniffer"
+		]
+	}
+}
